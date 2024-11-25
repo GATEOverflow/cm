@@ -1,6 +1,6 @@
 [build-system]
 build-backend = "setuptools.build_meta"
-requires = ["setuptools", "tabulate"]
+requires = ["setuptools"]
 
 [project]
 name = "cmind"
@@ -22,7 +22,8 @@ dependencies = [
     "requests", 
     "setuptools",
     "wheel",
-    "giturlparse"
+    "giturlparse",
+    "tabulate"
 ]
 
 keywords = [
