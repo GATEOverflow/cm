@@ -1,2 +1,0 @@
-%CM_PYTHON_BIN_WITH_PATH% -m pip install --upgrade pip
-IF %ERRORLEVEL% NEQ 0 EXIT %ERRORLEVEL%
